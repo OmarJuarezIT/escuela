@@ -1,0 +1,71 @@
+/*Header*/
+.navbar{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+a{
+	color:#fff;
+}
+nav{
+	background: #1d759e;
+}
+img {
+	
+	border: none;
+    max-width: 100%; 
+    z-index: 90;  
+
+}
+
+header {
+  background: rgba(0,0,0,9);
+  width: 100%;
+  position: fixed;
+  z-index: 90;
+}
+
+body{
+	/*-color: red;*/
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: center;
+}
+h3{
+	font-size: 22px;
+	font-weight: 300;
+}
+
+strong{
+	font-weight: 500;
+}
+.my-clase{
+	padding: 100px 50px 55px 50px;
+}
+.myform-top{
+	margin-top: 100px;
+	overflow: hidden;
+	padding: 15px 25px 15px 25px;
+	background: rgba(0,129,125,0.5);
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	color: #000000;
+
+}
+.myform-bottom{
+	overflow: hidden;
+	padding: 50px 50px 55px 50px;
+	background: rgba(0,0,0,0.1);
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;	
+}
+.mybtn{
+	height: 50px;
+	background: #00817D;
+	border: 0;
+	font-size: 16px;
+	font-weight:500; 
+	line-height:40px;
+	color:#fff;
+}

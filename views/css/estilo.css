@@ -1,0 +1,59 @@
+
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	box-sizing:border-box
+}
+
+body{
+	background-image: url("libro.jpg");
+	background-size:
+                        1500px 720px;
+	display: flex;
+	min-height: 100vh;
+}
+
+form{
+	margin:auto;
+	width:50%;
+	max-width: 500px;
+	background: #7FA68C;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0.2)
+
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+
+input{
+	display:block;
+	padding: 5px;
+	width:80%;
+	margin:20px 0;
+	font-size: 15px;
+
+}
+
+input[type="submit"]{
+	background: linear-gradient(#C2C98C,#B3A68C);
+	border:0;
+	color:brown;
+	opacity: 0.8;
+	cursor:pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+input [type="submit"]:hover{
+	opacity: 0.8;
+
+}
+
+input[type="submit"]:active {
+	transform:scale(0.9);
+}
